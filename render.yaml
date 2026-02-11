@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: api-html-entity-decoder-strict-v1
+    env: node
+    plan: starter
+    buildCommand: yarn install
+    startCommand: node server.js
